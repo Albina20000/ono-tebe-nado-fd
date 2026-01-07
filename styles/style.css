@@ -39,6 +39,7 @@
     justify-self: end;
     display: flex;
     flex-direction: column;
+    font-style: normal;
 }
 
 .address__description {
@@ -50,8 +51,7 @@
 
 .overlay {
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -59,8 +59,7 @@
 }
 
 .cover {
-    min-height: 757px;
-    padding: 165px 50px 50px 50px;
+    padding: 160px 50px 50px 50px;
     background-image: url("../images/cover.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -70,7 +69,7 @@
 }
 
 .cover__title {
-    margin-bottom: 106px;
+    margin-bottom: 100px;
     position: relative;
     z-index: 10;
 }
@@ -91,10 +90,13 @@
 
 .aligned-text_center {
     text-align: center;
+    padding-left: 30px;
+    padding-top: 7px;
 }
 
 .aligned-text_right {
     text-align: end;
+    padding-top: 7px;
 }
 
 .cover__description {
@@ -189,7 +191,6 @@
 
 .card__title {
     min-width: 254px;
-    min-height: 110px;
     font-size: 22px;
     font-weight: 700;
     line-height: 1.2;
@@ -222,7 +223,6 @@
 }
 
 .about {
-    min-height: 595px;
     padding: 35px 24px 0;
     display: grid;
     grid-template-columns: 334px 1fr;
@@ -246,9 +246,7 @@
 }
 
 .about__column-right {
-    align-self: self-end;
-    padding-left: 25px;
-    padding-right: 5px;
+    padding: 100px 5px 0 25px;
 }
 
 .about__heading {
