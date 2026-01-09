@@ -63,7 +63,7 @@
     background-image: url("../images/cover.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover;
     margin-bottom: 180px;
     position: relative;
 }
